@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <style>
+        /* Style for the form */
+        form {
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div id="formContainer"></div>
+<Product Form -->
+ <form id="productForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name"  >
+
+    <label for="prix">Price (Prix):</label>
+    <input type="text" id="prix"  >
+
+    <label for="link">Link:</label>
+    <input type="text" id="link" >
+
+    <label for="category">Category:</label>
+    <input type="text" id="category" >
+<button onclick="addItemWhenClickButton()">Add Product</button>
+
+
+</form> 
+<script src="j-main.js"></script>
+</body>
+</html>
